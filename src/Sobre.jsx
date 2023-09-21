@@ -11,7 +11,7 @@ function Sobre() {
     <>
       <Header />
       <section className="w-screen flex flex-col justify-center items-center mt-20">
-        <div className="w-2/6 2xl:w-3/6 sm:w-[90%] flex flex-col ">
+        <div className=" sm:w-[90%] w-2/6 2xl:w-3/6 max-w-[960px] flex flex-col ">
           <h1 className="w-full flex justify-center text-3xl">SOBRE MIM</h1>
           <p className="text-xl mt-6 text-center text-gray-500">
             Vinicius Berger <br />
@@ -59,7 +59,7 @@ function Sobre() {
         <img
           src={PerfilVini}
           alt="Foto de Perfil de Vinicius"
-          className="w-2/4 object-cover"
+          className="w-2/4 sm:w-3/4 max-w-[960px] object-cover"
         />
       </section>
     </>
