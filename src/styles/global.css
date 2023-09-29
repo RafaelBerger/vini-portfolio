@@ -8,3 +8,11 @@
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
+
+.navbar-mobile {
+  @apply sm:flex-col-reverse sm:pt-4 sm:px-4 sm:items-end;
+}
+
+.ul-navbar {
+  @apply sm:flex-col sm:w-full sm:justify-center sm:gap-4;
+}
