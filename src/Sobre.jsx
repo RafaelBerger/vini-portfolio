@@ -5,6 +5,7 @@ import {
   EnvelopeSimple,
 } from "@phosphor-icons/react";
 import PerfilVini from "./assets/perfilvini.png";
+import Footer from "./components/Footer";
 
 function Sobre() {
   return (
@@ -62,6 +63,8 @@ function Sobre() {
           className="w-2/4 sm:w-3/4 max-w-[960px] object-cover"
         />
       </section>
+
+      <Footer />
     </>
   );
 }
