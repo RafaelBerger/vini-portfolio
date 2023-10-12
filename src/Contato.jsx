@@ -33,12 +33,12 @@ function Contato() {
       <Header />
       <section className="mt-20 sm:mt-10 w-screen flex flex-col justify-center items-center">
         <h1 className="text-3xl">CONTATO</h1>
-        <p className="text-gray-500 text-xl mt-6">
+        <p className="text-gray-500 text-xl mt-6 sm:w-[80%]">
           Solicite seu orçamento ou mande seu material aqui
         </p>
 
-        <form ref={form} onSubmit={sendEmail} className="mt-12">
-          <div className="flex flex-col h-[400px] justify-evenly sm:w-9/12">
+        <form ref={form} onSubmit={sendEmail} className="mt-12 sm:w-9/12">
+          <div className="flex flex-col h-[400px] justify-evenly ">
             <input
               type="text"
               name="name"

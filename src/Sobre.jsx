@@ -12,9 +12,9 @@ function Sobre() {
     <>
       <Header />
       <section className="w-screen flex flex-col justify-center items-center mt-20 sm:mt-10">
-        <div className=" sm:w-[90%] w-2/6 2xl:w-3/6 max-w-[960px] flex flex-col ">
+        <div className=" sm:w-[80%] w-2/6 2xl:w-3/6 max-w-[960px] flex flex-col ">
           <h1 className="w-full flex justify-center text-3xl">SOBRE MIM</h1>
-          <p className="text-xl mt-6 text-center text-gray-500">
+          <p className="text-xl mt-6 text-center text-gray-500 ">
             Vinicius Berger <br />
             Videomaker - Produtor Audiovisual
             <br /> São Paulo - SP <br />
