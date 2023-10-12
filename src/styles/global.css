@@ -7,6 +7,11 @@
 * {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
+  text-align: justify;
+}
+
+button {
+  text-align: center;
 }
 
 .navbar-mobile {
