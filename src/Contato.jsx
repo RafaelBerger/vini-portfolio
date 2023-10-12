@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import Footer from "./components/Footer";
 
 function Contato() {
   const form = useRef();
@@ -67,6 +68,7 @@ function Contato() {
           </button>
         </form>
       </section>
+      <Footer />
     </>
   );
 }
