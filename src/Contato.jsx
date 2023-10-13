@@ -38,7 +38,7 @@ function Contato() {
         </p>
 
         <form ref={form} onSubmit={sendEmail} className="mt-12 sm:w-9/12">
-          <div className="flex flex-col h-[400px] justify-evenly ">
+          <div className="flex flex-col h-[400px] justify-evenly">
             <input
               type="text"
               name="name"
@@ -60,12 +60,14 @@ function Contato() {
               required
             />
           </div>
-          <button
-            type="submit"
-            className="w-56 h-12 border-solid border-2 border-slate-900 text-dark-200 font-bold rounded-md hover:bg-black hover:text-white transition-colors ease-in"
-          >
-            Mandar mensagem
-          </button>
+          <div className="flex justify-center">
+            <button
+              type="submit"
+              className="w-56 h-12 border-solid border-2 border-slate-900 text-dark-200 font-bold rounded-md hover:bg-black hover:text-white transition-colors ease-in"
+            >
+              Mandar mensagem
+            </button>
+          </div>
         </form>
       </section>
       <Footer />
