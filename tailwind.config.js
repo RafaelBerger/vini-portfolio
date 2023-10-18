@@ -8,7 +8,7 @@ export default {
 
         xl: { max: "1279px" },
 
-        "2xl": { min: "1535px" },
+        "2xl": { max: "1535px" },
 
         lg: { min: "1023px" },
 
