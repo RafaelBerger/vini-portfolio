@@ -1,7 +1,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import img1 from "../src/assets/perfilvini.png";
-import vid from "../src/assets/deixa eu jogar lol.mp4";
 import { DefaultUi, Player, Video } from "@vime/react";
 
 import "@vime/core/themes/default.css";
@@ -48,7 +47,7 @@ export default function TrabalhoAberto() {
                 preload="auto"
                 mediaTitle="Teste"
               >
-                <source data-src={vid} type="video/mp4" />
+                <source data-src="" type="video/mp4" />
                 <track default />
               </Video>
               <DefaultUi />
@@ -62,7 +61,7 @@ export default function TrabalhoAberto() {
                 poster="https://media.vimejs.com/poster.png"
                 preload="auto"
               >
-                <source data-src={vid} type="video/mp4" />
+                <source data-src="" type="video/mp4" />
                 <track default />
               </Video>
               <DefaultUi />
