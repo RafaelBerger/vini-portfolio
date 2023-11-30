@@ -12,6 +12,8 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@phosphor-icons/react": "^2.0.10",
+    "@vime/core": "^5.4.1",
+    "@vime/react": "^5.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0"
