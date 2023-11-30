@@ -12,9 +12,9 @@ function Header() {
 
   return (
     <>
-      <nav className="navbar-mobile flex w-screen justify-between pt-6 px-32  ">
+      <nav className=" navbar-mobile 3xl:px-80 flex w-screen justify-between pt-6 px-32  ">
         <ul
-          className={`ul-navbar flex lg:w-2/5 2xl:w-1/4 justify-around items-center text-xl ${
+          className={`sm:w-full ul-navbar flex justify-around items-center text-xl lg:w-3/6 2xl:w-2/5 ${
             isActive ? "" : "sm:hidden"
           }`}
         >
@@ -39,7 +39,7 @@ function Header() {
         </ul>
         <div>
           <button onClick={handleClick}>
-            <List size={32} weight="bold" className="md:hidden" />
+            <List size={32} weight="bold" className="lg:hidden" />
           </button>
           <img src={logo} alt="Logo" className="w-48 sm:hidden" />
         </div>
